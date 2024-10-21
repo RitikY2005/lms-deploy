@@ -4,7 +4,7 @@ import asyncHandler from "./asyncHandler.middleware.js";
 import User from '../models/user.model.js';
 
 export const isLoggedIn = asyncHandler(async (req, _res, next) => {
-  console.log("middleware",req.cookies);
+  console.log("middleware",req);
   // extracting token from the cookies
   const { token } = req.cookies;
 

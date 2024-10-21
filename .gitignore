@@ -1,0 +1,40 @@
+# Ignore node_modules for both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore build outputs
+client/build/
+server/dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+
+# React specific
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Ignore environment variables
+server/.env
+
+
+#just for purpose of testing ... not realted to code at all 
+postman.html
+razorpay.html
+

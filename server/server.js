@@ -21,7 +21,7 @@ cloudinary.config({
 	 key_secret:process.env.RAZORPAY_SECRET
 });
 
-const PORT=process.env.PORT;
+const PORT=process.env.PORT || 3000;
 
 
 app.listen(PORT,()=>{
